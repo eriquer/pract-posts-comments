@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="functional" />
+        <module name="users-dto" />
         <module name="books-imperative" />
         <module name="users-imperative" />
-        <module name="books-reactive" />
-        <module name="users-reactive" />
-        <module name="users-dto" />
-        <module name="books-functional" />
         <module name="users-functional" />
+        <module name="users-reactive (1)" />
+        <module name="books-reactive" />
+        <module name="posts-comments-reactive" />
+        <module name="books-functional" />
+        <module name="functional" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,10 +22,11 @@
       <module name="books-imperative" target="11" />
       <module name="books-reactive" target="11" />
       <module name="functional" target="11" />
+      <module name="posts-comments-reactive" target="11" />
       <module name="users-dto" target="11" />
       <module name="users-functional" target="11" />
       <module name="users-imperative" target="11" />
-      <module name="users-reactive" target="11" />
+      <module name="users-reactive (1)" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,10 +35,11 @@
       <module name="books-imperative" options="-parameters" />
       <module name="books-reactive" options="-parameters" />
       <module name="functional" options="-parameters" />
+      <module name="posts-comments-reactive" options="-parameters" />
       <module name="users-dto" options="-parameters" />
       <module name="users-functional" options="-parameters" />
       <module name="users-imperative" options="-parameters" />
-      <module name="users-reactive" options="-parameters" />
+      <module name="users-reactive (1)" options="-parameters" />
     </option>
   </component>
 </project>
